@@ -7,6 +7,10 @@ to quickly generate hex codes for custom colors when developing. The app allows 
 is selected by the user, the hex code is printed at the top. After realizing the pains of drag-and-click to copy the hex code, I also
 created a button feature using the Tauri Clipboard plugin API that allows for one click copying of the hex to quickly paste in any editor.
 
+## Screenshot
+
+![screenshot](./public/Screenshot%202025-06-28%20135933.png)
+
 ## Installation & Usage
 
 To install this app and use it for yourself*, follow my step-by-step instructions below:
