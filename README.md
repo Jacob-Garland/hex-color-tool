@@ -26,6 +26,16 @@ To install this app and use it for yourself*, follow my step-by-step instruction
 The app will be the three files in the release folder, and depending on your OS, select the appropriate app and copy it anywhere on your device.
 The Windows application is the .exe file. When you open your system's appropriate application file, the app window will open on your desktop.
 
+## Features
+
+- Easily turn any color to a hex code for development and design.
+- Copy to system clipboard feature.
+- Eyedropper button allows for finding hex value of any pixel anywhere on your screen.
+- Swatch on bottom right displays currently selected color.
+- Top slider is to browse the color spectrum.
+- Bottom slider is to see opacity effects on the swatch for the selected color.
+- Toast alerts to tell you if you've successfully copied the hex color!
+
 ## Credits
 
 - [Chakra UI](https://chakra-ui.com/)
