@@ -10,22 +10,23 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@chakra-ui/react": "^3.21.0",
+    "@chakra-ui/react": "^3.36.1",
     "@emotion/react": "^11.14.0",
     "@tauri-apps/api": "^2",
-    "@tauri-apps/plugin-clipboard-manager": "^2.3.0",
+    "@tauri-apps/plugin-clipboard-manager": "^2.3.2",
     "@tauri-apps/plugin-dialog": "^2",
-    "@tauri-apps/plugin-store": "^2",
     "@tauri-apps/plugin-opener": "^2",
-    "lucide-react": "^0.539.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@tauri-apps/plugin-store": "^2",
+    "color-core": "^1.4.0",
+    "lucide-react": "^1.28.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   },
   "devDependencies": {
-    "@chakra-ui/cli": "^3.21.0",
+    "@chakra-ui/cli": "^3.36.1",
     "@tauri-apps/cli": "^2",
-    "@types/react": "^18.3.1",
-    "@types/react-dom": "^18.3.1",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^4.3.4",
     "typescript": "~5.6.2",
     "vite": "^6.0.3",

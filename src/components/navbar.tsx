@@ -214,7 +214,7 @@ export const Navbar = ({ currentHex, onSelectSavedColor, onRandomColor, onCopyTo
     <Box
       position="absolute"
       right="6"
-      top="50%"
+      top="52%"
       transform="translateY(-42%)"
       zIndex="20"
       bg={panelBg}
@@ -222,7 +222,7 @@ export const Navbar = ({ currentHex, onSelectSavedColor, onRandomColor, onCopyTo
       borderColor={panelBorder}
       boxShadow={panelShadow}
       backdropFilter="blur(18px)"
-      rounded="3xl"
+      rounded="xl"
       p="2"
       w="72px"
     >

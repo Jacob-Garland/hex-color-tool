@@ -81,7 +81,7 @@ function App() {
         <Box
           w="full"
           p="5"
-          rounded="3xl"
+          rounded="xl"
           borderWidth="1px"
           borderColor={cardBorder}
           bg={cardBg}

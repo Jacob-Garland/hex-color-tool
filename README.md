@@ -1,11 +1,13 @@
 # Hex Color Tool
 
+![Static Badge](https://img.shields.io/badge/Version-2.0.2-8A2BE2)
+
 ## Description
 
 This simple and small desktop application is something I threw together in a couple days with Chakra UI's color picker component and Tauri
-to quickly generate hex codes for custom colors when developing. The app allows you to freely browse the color spectrum, and when a color
-is selected by the user, the hex code is printed at the top. After realizing the pains of drag-and-click to copy the hex code, I also
-created a button feature using the Tauri Clipboard plugin API that allows for one click copying of the hex to quickly paste in any editor.
+to quickly generate hex codes for creating colors when developing. The app allows you to freely browse the color spectrum, and when a color
+is selected by the user, the hex code is printed at the top. I also
+created a toolbar feature and using the Tauri Clipboard plugin API it allows for one click copying of the color code to quickly Ctrl+V in any editor.
 
 ## Screenshot
 
@@ -29,12 +31,21 @@ The Windows application is the .exe file. When you open your system's appropriat
 ## Features
 
 - Easily turn any color to a hex code for development and design.
-- Copy to system clipboard feature.
-- Eyedropper button allows for finding hex value of any pixel anywhere on your screen.
+- Copy to system clipboard feature or type in your own code to see the color it represents.
+- Eyedropper button allows for sampling and finding hex value of any pixel anywhere on your screen including outside of the app.
 - Swatch on bottom right displays currently selected color.
 - Top slider is to browse the color spectrum.
 - Bottom slider is to see opacity effects on the swatch for the selected color.
 - Toast alerts to tell you if you've successfully copied the hex color!
+- Toolbar on the right has copy, save, random, history menu, and app menu.
+
+## In Development
+
+Features soon to be developed include:
+
+- Implementing code conversion for other formats
+- Lightness, saturation, hue controls
+- Accessibility checker
 
 ## Credits
 
