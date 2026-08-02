@@ -11,7 +11,7 @@ created a toolbar feature and using the Tauri Clipboard plugin API it allows for
 
 ## Screenshot
 
-![screenshot](./public/Screenshot%202025-06-28%20135933.png)
+![screenshot](./public/Screenshot%202026-08-02%20161248.png)
 
 ## Installation & Usage
 
@@ -21,7 +21,7 @@ To install this app and use it for yourself*, follow my step-by-step instruction
 2. Make sure to visit https://v2.tauri.app/ and follow instructions to properly install Tauri and Rust and configure your local machine.
 3. Open your terminal and navigate to the project root directory.
 4. Run 'npm install -D' to ensure all dependancies and dev dependancy packages are installed.
-5. Run 'npm run tauri dev' and Tauri will make a release build that will hot reload with Vite as you make any changes.
+5. Run 'npm run tauri dev' and Tauri will make a release build that will hot reload with Vite as you make any changes to the code.
 6. Alternatively, use 'npm run tauri build' to build my base version or after you're done with the changes.
 7. Once Tauri has completed the build, you can find a packaged version of the app in "./src-tauri/target/release/".
 
