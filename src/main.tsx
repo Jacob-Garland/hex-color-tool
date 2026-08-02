@@ -8,6 +8,7 @@ import {
   defaultConfig,
   defineConfig,
 } from "@chakra-ui/react"
+import { ColorModeProvider } from "./components/ui/color-mode"
 
 const config = defineConfig({
   theme: {
@@ -21,8 +22,10 @@ const system = createSystem(defaultConfig, config)
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ChakraProvider value={system}>
-      <App />
-    </ChakraProvider>
+    <ColorModeProvider>
+      <ChakraProvider value={system}>
+        <App />
+      </ChakraProvider>
+    </ColorModeProvider>
   </React.StrictMode>,
 );

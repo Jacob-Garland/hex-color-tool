@@ -13,8 +13,8 @@
     "windows": [
       {
         "title": "Hex Color Tool",
-        "width": 420,
-        "height": 417,
+        "width": 512,
+        "height": 512,
         "resizable": false,
         "fullscreen": false
       }
